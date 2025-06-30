@@ -1,0 +1,11 @@
+# config/settings.yaml
+thresholds:
+  emotion: 0.5
+responses:
+  calm:
+    - maintain_speed
+    - normal_lighting
+  stressed:
+    - reduce_speed
+    - activate_massage
+    - play_music: "calm_playlist"

@@ -1,0 +1,9 @@
+[Unit]
+Description=Vehicle Emotion Tethering Service
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
